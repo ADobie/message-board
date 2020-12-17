@@ -9,7 +9,7 @@ import "github.com/jinzhu/gorm"
 var Db *gorm.DB
 
 func database() {
-	db, err := gorm.Open("mysql", "root:tjy5201314@/message?charset=utf8&parseTime=True&loc=Local")
+	db, err := gorm.Open("mysql", "root:222@/message?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		log.Fatal(err)
 	}
